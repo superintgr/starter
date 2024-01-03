@@ -7,4 +7,13 @@
 -0) When there is a construction defined on the substrate, the head produces feedforward into measurement block
 +0) For feedforward available for some attributes of the current substrate, the new state of the object is measured by sampling from associated mediums
 +1) Measurement causes feedback into the preparation block which prepares the medium with required variables in order to comply with the existing construction head.
+
 -1) Phase change will occur between construction and configuration of substrates and associated media
+-0) We create a stereo signal with two tracks constituting left and right channels
++0) The mono audio that passes through each channel gets transformed into a stereo track where the phase is correlated and controlled with respect to the master output
++1) As the phase changes, the panning coefficients are applied to restore volume across the activated positions.
+
+-1) Starting with the left channel, the coefficients are tuned so that the sequence is covered entirely respecting the medium constraints
+-0) In von neumann architecture, the central processing unit communicates to a memory unit and processes are designed for fetching/storing/placing updates of data between logical and arithmetical tasks
++0) We introduce line mixing with traditional multi-channel mixer units with balanced wave variables that communicates via amplitude data
++1) Programs are written with mid-side encoding/decoding matrices where the line-level variables are transformed from left-right projection to parametric functions.
