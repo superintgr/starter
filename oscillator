@@ -1,0 +1,11 @@
+-1) There are generators and samplers both running independently on seperate channels.
+-0) The head unit will work from master where the propagation graphs are found.
++0) There are two types of processes and two types of forms
++1) Abstract processes like construction description and measurement, followed by physical forms like computation and preparation of substrate.
+
+-1) Since the head is simultaneously able to compute/prepare or measure/construct over some substrate, there are phase changes which will constitute a complete cycle of mastering step
+-0) When there is a construction defined on the substrate, the head produces feedforward into measurement block
++0) For feedforward available for some attributes of the current substrate, the new state of the object is measured by sampling from associated mediums
++1) Measurement causes feedback into the preparation block which prepares the medium with required variables in order to comply with the existing construction head.
+
+-1) Phase change will occur between construction and configuration of substrates and associated media
