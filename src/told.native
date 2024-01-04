@@ -6,3 +6,10 @@
 (the buffered tracks will setup the basis for each axis where we have 6 of them)
 
 (i need to define the hierarchical relationships between these concepts), (plasmas, ion-acoustic waves, magnetic field lines, propagation of plasma waves in magnetized field, ionosphere and sampling observables from ground)
+
+(fundamental pipeline for cpu), (bootloader, device and drives, interface and io communication, memory pointers, running processes, scheduled tasks, levels of execution layer, user and system state)
+(assuming a memory substrate, there are key-value maps intrinsic to the substrate), (to communicate with mapped services, interface collect query from functional interface on the outer layer), (from outer layer there are valid functions of disjoint variables to instrinsic variables)
+(intrinsic variables are parameterised units that are linked to outer levels receptive units which are functions change from events to events), (external connectors send request to specific receptive state which processes the message into query object), (receptive units responsive to query parameters designed into the object attributes encode the information from external state to internal state)
+(from internal state a valid pointer will trigger the change associated with data vectors), (data vectors applied to the matrices produce scalar terms), (scalar terms are used to transform the internal state)
+(internal state at any time provide mapping to the associated variables which provide lookup functions), (lookup functions will fetch the measurable quantities and store the result in the environment denoting the call associated with the job), (subsequent probe from retreiving the requested information at right object level inducing legitimate internal state will restore the outcome of the measurement and relay backward)
+(backward passes will land straight onto the external layer and broadcast the data to the communication media)
