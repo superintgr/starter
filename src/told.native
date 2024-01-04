@@ -4,3 +4,5 @@
 
 (we start with a precomputed buffer stack containing six fundamental tones for the six roots of unity)
 (the buffered tracks will setup the basis for each axis where we have 6 of them)
+
+(i need to define the hierarchical relationships between these concepts), (plasmas, ion-acoustic waves, magnetic field lines, propagation of plasma waves in magnetized field, ionosphere and sampling observables from ground)
