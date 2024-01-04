@@ -1,0 +1,6 @@
+(musical set theory, integer notations, pitch classes, 12-semitone octave)
+(what is the goal here), (the goal is to define an encoding scheme using notes and their interactions in letter forms)
+(for a neck supporting 24 fret positions, six strings, an instrument can produce any combination of letters and sequences by permuting over the entire set of possible note combination)
+
+(we start with a precomputed buffer stack containing six fundamental tones for the six roots of unity)
+(the buffered tracks will setup the basis for each axis where we have 6 of them)
