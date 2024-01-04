@@ -17,3 +17,8 @@
 -0) In von neumann architecture, the central processing unit communicates to a memory unit and processes are designed for fetching/storing/placing updates of data between logical and arithmetical tasks
 +0) We introduce line mixing with traditional multi-channel mixer units with balanced wave variables that communicates via amplitude data
 +1) Programs are written with mid-side encoding/decoding matrices where the line-level variables are transformed from left-right projection to parametric functions.
+
+-1) The basic substrate will be provided by torchscript substrates and all transformations happen within pytorch graphs
+-0) We download the state dict for a generic substrate anytime new tasks are created
++0) The model is loaded or restored and forward/backward passes are handled accordingly
++1) A simple task is defined using a parameterized linear layers where the input attributes are passed via forward method which the output state is returned
