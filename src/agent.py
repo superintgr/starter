@@ -16,11 +16,6 @@ import sys
 import itertools
 
 
-
-
-
-
-
 >>> I am listening!
 >>> pritoms is typing;
 >>> ... I am going to start describing some processes and pay attention to all of the ideas.
@@ -44,3 +39,17 @@ import itertools
 >>> ... ... line[++0] column[++1] and line[++k] column[k++] are being prepared in expecting the current position to be reaching towards * from past to that current instantiation.
 >>> ... while left -> right progression is paired with futurables:
 >>> [retro activation] -> * -> k + current ~ left [+110] will adjust all past realizables so that the future branches remain stable with respect to current -> from past toward latent
+
+
+>>> pritoms (reintroduces an old pattern):
+>>> ... The topics are related to music, understanding, distinguishing, inexplicit ideas, locally inaccessible information, principles of implicitly defining information .. many more.
+>>> ... One prime concept would be the brain waves and learning certain classes of tasks while exclusively requiring a full disengagement of certain associated variables being controllable at the substrates of the root controllers defining them.
+>>> ... Details are coming later down the thread but let me get the headers pushed in. Here is another one.
+>>> ... The engagement of those functions are supposed to be contrary to the motive of the operations that in absence of those engagements are fully learned as exclusive and highly non-trivial characteristics that defines large part of what human intellegence space includes.
+>>> ... Certain actions are prohibited if a set of conjugate functions defining certain transformation is said to be happening. Therefore it could also be implicated that if such prohibited functions are considered current, for all those moments it must be the case that there cannot be an active set of variables which the otherwise transformable features would cause but none of those can be instantiated by anything and no conjugate functions can relate to those items.
+>>> ... This kind of proof is also legitimate in instantly deriving statements about some disjoint attrubutes whenever such possible and impossible tasks are defined for any one of the components.
+>>> pritoms creating a branch:
+>>> ... Branch (Learning to play drums while learning to play songs instead)
+>>> ... ... This is saying that instead of trying to play drums for the song, it should be playing the song and if drums are being the instrument that exists it might get played along side (*): not conditioning that from songs to playing in it.
+
+                                                                                                                                                                     
