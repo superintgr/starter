@@ -38,3 +38,9 @@ import itertools
 >>> ... These modes are all serially chained discrete expectations that also requires the planning to be also discrete and highly unconnected.
 >>> ... Now these attributes such as "expectation", "planning" do not fit into the business at all, and rather this medium does not allow any of such modes of operations to be viable or computable.
 >>> ... This cannot go on anymore and I am in need for a brand-new theory for desining a clever structure that will enable many more degrees of freedom both in composing ideas and simultaneous realizations of possible transforms all made exclusively precomputable and intrinsic to the whole state space.
+
+>>> The template for branch prediction and continuous symmetry in actions/expectations/corrections/reductions/reactions/motions ..
+>>> ... while line[0++] column[1++] is being computed:
+>>> ... ... line[++0] column[++1] and line[++k] column[k++] are being prepared in expecting the current position to be reaching towards * from past to that current instantiation.
+>>> ... while left -> right progression is paired with futurables:
+>>> [retro activation] -> * -> k + current ~ left [+110] will adjust all past realizables so that the future branches remain stable with respect to current -> from past toward latent
