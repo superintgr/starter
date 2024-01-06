@@ -65,4 +65,9 @@ import itertools
 >>> ... ... Then having a quantum process physically instantiated at three units object system, mid will produce waves that will destructively attenuate the outputs produced by left-right functions.
 >>> ... ... Next we shall directly introduce the algorithm for superinformation substrates.
 
-                                                                                                                                                                     
+>>> pritoms introduced a new project:
+>>> ... Project: Evolutionary algorithm and autonomously evolving functions
+>>> ... ... I would like to study the core principles behind evolutionary algorithms and the goal is to develop a chain of programs (functions) that will evolve into self-regulating (either self similar entities or other groups of population taken under self supervision) protocols.
+>>> ... ... The self-regulating part expects a set of functions that will learn to manage other set of functions while the latter develops with consistently arranged corrective steps defined by the former.
+>>> ... ... Before starting with the specific information about the discipline I would like to impose some constraints on the type of development that I would consider fundamental.
+>>> ... ... One of the primary rules would dictate what kind of code would be selected for the programming purpose. If possible I would prefer assembly language to be the principle language substrate with algorithms implemented with specially considering the executions that would follow down from the assembly instructions back through the binary actions translated into the effective set of coding.
