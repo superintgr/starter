@@ -1,0 +1,24 @@
+(networks that deploy effects)
+(operations on network)
+(schedules powered by the network)
+(any statement is a potential explanation)
+(composing statements then requires only legitimate neighbors)
+(all non trivial substrates have private/public endpoints)
+
+
+the regular networks, possible tasks, impossible tasks, explanations
+.. a schedule at the lower levels is a stable set of tasks that kept intantiated and scheduled regularly
+.. the low frequency invarient features are those that appeared consistently in schedules
+
+triggers
+job stores
+executors
+schedulers
+Triggers contain the scheduling logic. Each job has its own trigger which determines when the job should be run next. Beyond their initial configuration, triggers are completely stateless.
+
+Job stores house the scheduled jobs. The default job store simply keeps the jobs in memory, but others store them in various kinds of databases. A job’s data is serialized when it is saved to a persistent job store, and deserialized when it’s loaded back from it. Job stores (other than the default one) don’t keep the job data in memory, but act as middlemen for saving, loading, updating and searching jobs in the backend. Job stores must never be shared between schedulers.
+
+Executors are what handle the running of the jobs. They do this typically by submitting the designated callable in a job to a thread or process pool. When the job is done, the executor notifies the scheduler which then emits an appropriate event.
+
+Schedulers are what bind the rest together. You typically have only one scheduler running in your application. The application developer doesn’t normally deal with the job stores, executors or triggers directly. Instead, the scheduler provides the proper interface to handle all those. Configuring the job stores and executors is done through the scheduler, as is adding, modifying and removing jobs.
+
