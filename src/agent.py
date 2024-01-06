@@ -85,3 +85,9 @@ import itertools
 >>> ... ... There is a simultaneous I/O with (2 x 2), analog input with 2 channels, analog output via 2 channels (main/left, right -> analog output), USB recording will sample the 2 analog input channels with 192k Hz frequency (max) and 24 bit resolution, whenever stream audio from CPU the output will arrive at the analog output ports, there are additional channels one for monitoring without any latency and (2 x 2) output channels in RCA type for loading voltage drops, although the two pairs (4 channels) of output ports would only make one of them active, this is a monitoring feature with A/B testing mapping each switching state to a pair of output ports (1:2, 3:4).
 >>> ... ... Along with the four additional channels for playback, the main output pair (analog) could also be connected to speakers. Then for each selection of A/B mode, one of the active playback stream along with the main output stream could solve the simulteneous monitor utilization problem.
                                                                                                                                          
+>>> pritoms introduced a new project
+>>> ... Project: Writing a program that keeps a record of all concepts visited over time and the tradition of learning in our system.
+>>> ... ... First task is to gather all input tokens into a selection phase where redundant entries are going to be eliminated.
+>>> ... ... When it is possible to capture all the variables and screen portions of those, it gives us an opportunity to retain some level of memory elements from the process of multistaged interactions that allows one to learn abstract meta features even when the items are removed (espeically when).
+>>> ... ... Generate an analysis of how long can I retain a single idea and when switching happens what kind of relationship do the new information encorporates.
+>>> ... ... Find out what and how recurring patterns of conceptualization appears.
