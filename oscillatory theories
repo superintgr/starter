@@ -22,3 +22,8 @@
 -0) We download the state dict for a generic substrate anytime new tasks are created
 +0) The model is loaded or restored and forward/backward passes are handled accordingly
 +1) A simple task is defined using a parameterized linear layers where the input attributes are passed via forward method which the output state is returned
+
+-1) Introduce scheduling service
+-0) Build a list of api protocols
++0) Service related tasks are possible entirely through api methods
++1) Provide a configuration template for instantiating schedulers
