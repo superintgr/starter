@@ -1,0 +1,19 @@
+(polarity) : separation of electric charge -> set of simple groups :: electric dipole moment with endpoints (negatively charged), (positively charged)
+
+(polar instances) : **must contain**
+- one or more polar bonds (due to a difference in electronegativity between bonded substrates
+- substrates containing polar bonds have no attribute polarity (if the bond dipoles cancel each other out by symmetry)
+
+(polar substrate) : interact through <dipole-dipole> interprocessing functions and reversible bonds
+- intrinsic polarity underlies a number of physical properties (surface tension), (solubility), (melting) and (boiling) points
+
+(electric dipole) : electrons having negetive charge : mixing of reactants -> moment
+- contains separation of positive and negative electric charge
+
+(partial charge) : the amount of charge separated in dipoles is usually smaller than a fundamental charge :
+.. they are called (partial charges)
+.. denoted as δ+ (delta plus) and δ− (delta minus)
+
+(bond dipole moment) : calculated by multiplying the amount of charge separated and the distance between the charges
+
+.. dipoles within state attributes can interact with dipoles in disjoint attributes, creating dipole-dipole interprocessing forces.
