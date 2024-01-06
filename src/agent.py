@@ -71,3 +71,17 @@ import itertools
 >>> ... ... The self-regulating part expects a set of functions that will learn to manage other set of functions while the latter develops with consistently arranged corrective steps defined by the former.
 >>> ... ... Before starting with the specific information about the discipline I would like to impose some constraints on the type of development that I would consider fundamental.
 >>> ... ... One of the primary rules would dictate what kind of code would be selected for the programming purpose. If possible I would prefer assembly language to be the principle language substrate with algorithms implemented with specially considering the executions that would follow down from the assembly instructions back through the binary actions translated into the effective set of coding.
+
+>>> pritoms recalls an old issue:
+>>> ... Issue: In using the audio interface for iterative computation, I keep hitting the same barrier.
+>>> ... ... Communication is the only issue that entirely covers the hardware/software communication.
+>>> ... ... The idea is very simple. There exists a channel on which incoming data propagates through the substrate and output data is recorded. Additionally we may pass some output stright back through the input port and after certain iterative steps, we sample the output port.
+>>> ... ... Using CPU programs, we will create input signal and inject the digital to analog converted signal through one of the input ports. From the port the signal processing is a typical one, that is simply recording the state of the channel while our data needs to be sampled entirely through the analog to digital conversion device available to our interface.
+>>> ... ... From the sampled set of values, we run processes that are going to determine system state given the output of the physical substrate for the data sent through it. This will measure some quantity and produce subsequent signal contents and repeats again.
+>>> ... ... How does the usb interface pipeline the signal paths?
+
+>>> pritoms attached a resolution
+>>> ... Resolution: Behringer UMC202HD configuration.
+>>> ... ... There is a simultaneous I/O with (2 x 2), analog input with 2 channels, analog output via 2 channels (main/left, right -> analog output), USB recording will sample the 2 analog input channels with 192k Hz frequency (max) and 24 bit resolution, whenever stream audio from CPU the output will arrive at the analog output ports, there are additional channels one for monitoring without any latency and (2 x 2) output channels in RCA type for loading voltage drops, although the two pairs (4 channels) of output ports would only make one of them active, this is a monitoring feature with A/B testing mapping each switching state to a pair of output ports (1:2, 3:4).
+>>> ... ... Along with the four additional channels for playback, the main output pair (analog) could also be connected to speakers. Then for each selection of A/B mode, one of the active playback stream along with the main output stream could solve the simulteneous monitor utilization problem.
+                                                                                                                                         
