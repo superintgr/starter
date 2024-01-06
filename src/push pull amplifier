@@ -1,0 +1,6 @@
+(transitor push pull amplifier) : no transformer used
+... ((npn) (pnp)) @ (transistor)
+... (npn) base : -| ((-- collector), (-> emitter))
+... (pnp) base : -| ((-- collector), (<- emitter))
+
+... input signal
