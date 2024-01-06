@@ -1,0 +1,12 @@
+completely non-polar: electronegetivities are identical and difference is zero.
+completely polar: electronegetivity differences are large enough and atoms take one of the electrons to make complete polar situation.
+
+Bond polarity is typically divided into three groups that are loosely based on the difference in electronegativity between the two bonded atoms.
+According to the Pauling scale:
+- Nonpolar bonds generally occur when the difference in electronegativity between the two atoms is less than 0.5
+- Polar bonds generally occur when the difference in electronegativity between the two atoms is roughly between 0.5 and 2.0
+- Ionic bonds generally occur when the difference in electronegativity between the two atoms is greater than 2.0
+
+quantum-mechanical description:
+- Pauling proposed that the wave function for a polar molecule AB is a linear combination of wave functions for covalent and ionic molecules: ψ = aψ(A:B) + bψ(A+B−)
+- The amount of covalent and ionic character depends on the values of the squared coefficients a2 and b2
