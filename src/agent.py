@@ -52,4 +52,17 @@ import itertools
 >>> ... Branch (Learning to play drums while learning to play songs instead)
 >>> ... ... This is saying that instead of trying to play drums for the song, it should be playing the song and if drums are being the instrument that exists it might get played along side (*): not conditioning that from songs to playing in it.
 
+>>> pritoms created another branch:
+>>> ... Branch: (Mid-side processing and implicit definitions)
+>>> ... ... If considering a stereo speaker system, it will contain two speaker units placed next to each other with certain distance between them.
+>>> ... ... This kind of processing will include two channels indicating right and left speaker outputs. The channels are panned hard to their spacital root direction.
+>>> ... ... Now consider mid-side processing. The mid is the sum of two channels (left + right) / 2 and sides are the difference (left + (-right)) / 2.
+>>> ... ... From mid and sides representation, left <- mid + sides and mid - sides -> right; therefore derivable in stereo form.
+>>> ... ... The key difference in physical instantiations of mid, side channels is that mid provides an additional object which goes between the gap found in stereo sound systems.
+>>> ... ... Imagine the standard stereo placement of speakers exactly, but include another kind of speaker unit that sits between the two left-right speakers. Thus imagine this new placement of units covering all of the spaces between the edges drawing the boundary of physical spectrum covered along the entire line from left through center all the way upto the right end.
+>>> ... ... Now we can also imagine the left-right neighbors from the perspective of the central node and consider those objects to be the side channels (from mid-side matrix).
+>>> ... ... Now again try to block off the sides and partition the distinct spectrums of all the three functionals where interference properties introduce quantized functions of discrete spectrum.
+>>> ... ... Then having a quantum process physically instantiated at three units object system, mid will produce waves that will destructively attenuate the outputs produced by left-right functions.
+>>> ... ... Next we shall directly introduce the algorithm for superinformation substrates.
+
                                                                                                                                                                      
