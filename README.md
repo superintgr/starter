@@ -76,9 +76,58 @@ With that added complexity it is now a parameter of the kind that causes conserv
 
 ## Structure
 
-*hold* : <geometry> <linearity> <origin> <effect>
-*preserve* : <algebra> <composition> <arithmatic> <structure> 
-*groups* : <additive> <multiplicative>
-*actions* : <slide> <walk> <rotate> <translate> <flip> <squish> <stretch> <hold>
-*associates* : 0, 1, pi, e
-**map** : {}
+**objects**
+
+- skull / hypersurface
+- displacement / derivative operator
+- thickness / delta factor
+- eye basis / Z basis
+- Z basis / g basis
+- ground / G operator
+- elevation / g basis
+- displaced / reference basis
+- closeform / reference basis
+- perp operator / 2-spheres
+- 3-speres / perp basis
+- orthogonal dual / central eye-ar
+- eye-ar perp / ear conjugates
+- ear conjugates / eye conjugates
+- hadamard dual / densely connected
+- densely connected / mono-iso stereomer
+- azimuth / reference
+- angular / vectorial
+- fixed position / root solver
+- root / antipodal
+- star invarient / reference invarience
+- projector-projection / static-dynamic
+- ground-lift / phantom group
+- temporal / medial
+- medium / medial
+- medial / information
+- medial / substrate
+- 2-state / 2-level
+- ortho / mean
+- symmetry-group / laterus-group
+- mu / alpha
+- alpha / mirror
+- mirror / supererior
+- mid-side / left-right
+- commutator / master
+- master / qubit
+- bit / commutator
+
+**Equations**
+- spherical embedding of fixed point
+- coordinate search from spherical attributes
+- amplitude translation of panner state
+- gain structure of space-time operator
+- loss structure of temporal observer
+- find basis vectors of agent-operator symmetry
+- derivation of reference vector from embedded point
+- azimuth calculation using point symmetry in sphere
+- star mapping from data on hypersphere
+- projection of surface tensor in spherical object
+- perpendicular projection from radial basis to planar basis
+- dynamical change computation of fixed point inside a sphere with finite mean projection
+- interpolation of edges of fixed node with closed set
+- solver methods for node-antinode transformers
