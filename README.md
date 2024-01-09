@@ -116,18 +116,31 @@ With that added complexity it is now a parameter of the kind that causes conserv
 - master / qubit
 - bit / commutator
 
-**Equations**
-- spherical embedding of fixed point
-- coordinate search from spherical attributes
-- amplitude translation of panner state
-- gain structure of space-time operator
-- loss structure of temporal observer
-- find basis vectors of agent-operator symmetry
-- derivation of reference vector from embedded point
-- azimuth calculation using point symmetry in sphere
-- star mapping from data on hypersphere
-- projection of surface tensor in spherical object
-- perpendicular projection from radial basis to planar basis
+**Tasks**
+- [0] spherical embedding of fixed point
+- [1] coordinate search from spherical attributes
+- [2] amplitude translation of panner state
+- [3] gain structure of space-time operator
+- [4] loss structure of temporal observer
+- [5] find basis vectors of agent-operator symmetry
+- [6] derivation of reference vector from embedded point
+- [7] azimuth calculation using point symmetry in sphere
+- [8] star mapping from data on hypersphere
+- [9] projection of surface tensor in spherical object
+- [10] perpendicular projection from radial basis to planar basis
 - dynamical change computation of fixed point inside a sphere with finite mean projection
 - interpolation of edges of fixed node with closed set
 - solver methods for node-antinode transformers
+
+**Methods**
+- [0] `embed(object, cartesian_config)`, `fixed_point(object, spherical_config)`
+- [1] `search_coordinate(object, state_dict)`, `share_attribute(object, specification=None)`
+- [2] `convert_gain(object, waveform, target_mixer)`, `get_properties(object, channel=0)`
+- [3] `gain_structure(object, last_state, gradient=True)`, `operating_matrix(object, scalar_loss, vector_loss)`
+- [4] `loss_structure(object, gradient=False)`, `trainer_matrix(object, scalar_loss, vector_loss)`
+- [5] `sample_parameter(object, node, antinode)`, `symmetric_linear(object, sample_token)`, `compose_channel(object, constructor, agent, operator)`, `nonlinear_merge(constructor, spacetime_tensor)`, `merge_constructor(object, state_dict)`
+- [6] `compute_displacement(object, tensor)`, `trace_reference(object, delta_embedding, energy_level)`
+- [7] `calculate_azimuth(object, channel, structure)`
+- [8] `encode_byte(object, amplitude, token)`, `map_integer(object, tensor, star)`, `project_from_volume(object, ball, set, config)`, `decode_perimeter(object, volume, config)`
+- [9] `spherical_line(object, extended_state)`, `unit_motion(object, line, projector)`
+- [10] `perp(object, r, A)`, `project(object, panner, plane)`
