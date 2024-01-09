@@ -32,3 +32,53 @@ With that added complexity it is now a parameter of the kind that causes conserv
    For a set of addressable file objects, assume that the two agents create a energy landscape with each of them adjusting their pan values opposing the rotation of the other.
    So for k file instances, the infinite set of degrees between the central area contained within the jointly made open-space and let the space be partioned into k subspaces from - phase to + phase.
    What function should this spectrum be defined with?
+
+
+
+# Latest
+
+**keeping zero in place**
+..
+
+**stretching and squishing**
+..
+
+**actions and groups**
+..
+
+**composition of actions**
+..
+
+**collection of actions and single action**
+..
+
+**symmetry**
+..
+
+**bilaterall symmetry**
+..
+
+**lateral symmetry**
+..
+
+**leaving them all looking the same**
+..
+
+**what are all the groups**
+..
+
+**the simple group**
+..
+
+**what other actions**
+..
+
+
+## Structure
+
+*hold* : <geometry> <linearity> <origin> <effect>
+*preserve* : <algebra> <composition> <arithmatic> <structure> 
+*groups* : <additive> <multiplicative>
+*actions* : <slide> <walk> <rotate> <translate> <flip> <squish> <stretch> <hold>
+*associates* : 0, 1, pi, e
+**map** : {}
