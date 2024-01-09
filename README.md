@@ -128,9 +128,9 @@ With that added complexity it is now a parameter of the kind that causes conserv
 - [8] star mapping from data on hypersphere
 - [9] projection of surface tensor in spherical object
 - [10] perpendicular projection from radial basis to planar basis
-- dynamical change computation of fixed point inside a sphere with finite mean projection
-- interpolation of edges of fixed node with closed set
-- solver methods for node-antinode transformers
+- [11] dynamical change computation of fixed point inside a sphere with finite mean projection
+- [12] interpolation of edges of fixed node with closed set
+- [13] solver methods for node-antinode transformers
 
 **Methods**
 - [0] `embed(object, cartesian_config)`, `fixed_point(object, spherical_config)`
@@ -144,3 +144,6 @@ With that added complexity it is now a parameter of the kind that causes conserv
 - [8] `encode_byte(object, amplitude, token)`, `map_integer(object, tensor, star)`, `project_from_volume(object, ball, set, config)`, `decode_perimeter(object, volume, config)`
 - [9] `spherical_line(object, extended_state)`, `unit_motion(object, line, projector)`
 - [10] `perp(object, r, A)`, `project(object, panner, plane)`
+- [11] `step(Q, T, S)`, `measure(object, q, x)`, `feedforward(object, input, hidden)`
+- [12] `prepare_substrate(object, measure)`, `render(object, mixer, structure)`, `interpolate(object, mid, side)`
+- [13] `encode_stereo(object, left, right)`, `decode_stereo(object, node, antinode)`, `load_coil(Transformer, mid, side)`, `wind_forward(object, phantom, node)`, `wind_backard(object, solution, antinode)`
