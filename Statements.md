@@ -1,3 +1,5 @@
+$\bra{I}\mid{m}\ket{-i}$
+
 # Analysis of Structures In the Language of Diverse Branches of Scientific Study
 
 ***The Primary Statement***
