@@ -1,4 +1,8 @@
-Describe the motion of a transverse wave that has wavelength of 2, amplitudes ranging smoothly between -1, +1 expect at -0, +0 where nodes form.
+# Analysis of Structures In the Language of Diverse Branches of Scientific Study
+
+***The Primary Statement***
+>>> Describe the motion of a transverse wave that has wavelength of 2, amplitudes ranging smoothly between -1, +1 expect at -0, +0 where nodes form.
+
 
 **Differential Equation**
 
