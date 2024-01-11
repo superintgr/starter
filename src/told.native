@@ -52,3 +52,14 @@
         rho[Data]**(hatted y) -> sigma[g](hatted y)
     >>> g : File | theta[T, I] -> microphone
     >>> S : I | theta[I, T] -> G * microphone
+
+
+
+@ pritoms revisiting cybernetics:
+    Plans: Design the objects and their connection graphs for self supporting and steering into self services.
+    >>> What is the simplest kind of algorithm that could go the job:
+    >>> The job profile requires a candident agent design its own subsystems from the tasks it is given from a surface level:
+    >>> We start at the level where the universe at that space is known to support a set of transformations (T) for the universal set (U).
+    >>> Surface (S) is available for embedding some volume (V) and we initialize a volume ([V[i]) that will cover area (A[i]).
+    >>> Agent (A) is the set of possible agents on that surface with k points where each point P is a member of A and for i, j in A if i != j P[i] = -P[j].
+    >>> There is a pair of agents with coordinates that map each other in a sphere, an agent have associate at the anti-podal point and whenever one of them have relative change in state there is another change at the antipodal direction which has one-to-one relationship for all continuous evolution inside the sphere.
