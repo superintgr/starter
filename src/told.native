@@ -34,3 +34,21 @@
 (the new phone book is said to include map of "construction group of new haven" addressing to "MAIN-WORKSTATION-901" with registration of telephony network instance added under substrate located inside $ .paths/main_framed/indentity.json), (we have not employed an operator for the register)
 (in this session, the first goal is to search for a suitable candidate who would be handling the communication at the public register), (we establish a new path with $ mkdir circulars && cd circulars and this circular directory will organize the processes related to announcing, screening and short listing a set of suitable condidates)
 (the annoucement is first designed with proper representations of the system in question and attributing the right set of requisite tasks for evaluating candidacy), (the basic system is one that makes certain actions privileged to selected group of actors and an agent substrate is created via which those actions are translated into transformable statements), (the telephony register will require an agent class that autonomously handles all point of changes and employs a management protocol for each type of knowledge so as to maintain the institutional credibility and also constraints everything to maximum the service realiability through all means necessary)
+
+
+@ pritoms investigates the time mechanics:
+    >>> Attended: Chronology Respecting/Violating Nets
+    >>> There are Qubit computation networks.
+    >>> This bit is coming from a different page, [primary (T[p], T[s]), secondary] transformer networks.
+    >>> These will basically take input, amplify them (grounded locally) and output : a block isolated with its local ground.
+    >>> Input function (microphone) is seperately powered and grounded before entering the bloxk.
+    >>> A line carrying out the block response and passes through another one before reaching the speaker/transmitter which has its own grounding setup.
+    >>> Additionally the amplifiers inside the blocks must also have power supply.
+    *** I missed that there is a fader between the two blocks on the path through line, letting us control the gain.
+    >>> A sample graph:
+        X -> T[p] == I == T[s] -> I <- T[p] <- Y
+        Z -> T[s] and I -> Y -> I
+        I -> Z -> sigma[g](hatted Y) -> I -> sigma[F](I) -> I
+        rho[Data]**(hatted y) -> sigma[g](hatted y)
+    >>> g : File | theta[T, I] -> microphone
+    >>> S : I | theta[I, T] -> G * microphone
