@@ -5,6 +5,12 @@ $\bra{I}\mid{m}\ket{-i}$
 ***The Primary Statement***
 > Describe the motion of a transverse wave that has wavelength of 2, amplitudes ranging smoothly between -1, +1 expect at -0, +0 where nodes form.
 
+**Navier-Stokes equations (incompressibility)**
+
+$$\rho(\frac{\partial{v}}{\partial{t}} + v . \nabla{v}) = -\nabla{p} + \mu{\nabla}^2v + \mathbf{F}$$
+
+$\nabla . v = 0$
+
 Certainly! Here are the equations for the described motion of a transverse wave:
 
 **Differential Equation**
