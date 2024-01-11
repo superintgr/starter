@@ -6,3 +6,37 @@
 .. similar concepts in (Stereochemistry, stocheometry) : (language-substrate) -> (whole number ratio) (parallel systemss) (reactants compounds) (participation catalysis)
 .. /+0)
 (+0/ Mixing proportion : (output/input : balanced/mono -> right/left : (stereo signal) /+1)
+
+
+
+import builtins
+import ast
+import code
+
+class CustomInterpreter(ast.NodeTransformer):
+    def visit_Name(self, node):
+        try:
+            builtins.__dict__[node.id]
+        except NameError:
+            exec(f"{node.id} = '{node.id}'")
+        return node
+
+def custom_eval(expression):
+    tree = ast.parse(expression, mode='eval')
+    transformed_tree = CustomInterpreter().visit(tree)
+    compiled_code = compile(transformed_tree, '<string>', 'eval')
+    return eval(compiled_code)
+
+def custom_console():
+    while True:
+        try:
+            user_input = input(">>> ")
+            if user_input.lower() == 'exit':
+                break
+            result = custom_eval(user_input)
+            print(result)
+        except Exception as e:
+            print(f"Error: {e}")
+
+# Example usage:
+custom_console()
