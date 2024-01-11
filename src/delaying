@@ -1,0 +1,21 @@
+syntax : delaying(enabled)
+
+Enables or disables possibility for comibation of similar commands before sending them to compute processes/nodes in distributed processing.
+  - delaying decreases amount of disk space I/O ised for temporary changes.
+  - when delaying is enabled, command runtimes (see echo command) are not accurate.
+  - delaying is enabled by default.
+
+arguments : enable [input] ; datatype : boolean ; default value : True ; set to true to enable delaying.
+
+see also : distribute, delaying [*] maxmemory, maxtasks, chunksize, printscript.
+
+
+<monitoring resource usage patterns from side channels or external substrate>
+
+syntax : record_computer(object, callback)
+  ...
+
+
+<dropping out from mid in self description>
+
+syntax : page[a, b, *, d, e] # indicates the page at c and frame correspond to self viewing it
