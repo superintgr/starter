@@ -11,3 +11,25 @@ Polarity of chloromethane (left)
 and of the related Grignard compound
 with indication of the partial charge.
 In such a situation, the distributed charges taken as a group always carries a whole number of elementary charge units. Yet one can point to zones within the assemblage where less than a full charge resides, such as the area around an atom's nucleus. This is possible in part because particles are not like mathematical points—which must be either inside a zone or outside it—but are smeared out by the uncertainty principle of quantum mechanics. Because of this smearing effect, if one defines a sufficiently small zone, a fundamental particle may be both partly inside and partly outside it.
+
+
+
+## Azimuth embedding, spherical networks
+
+for line at path in tape point:
+    a block where point in tape is emptyk
+    a block is not a complete cycle yet
+    head = tape(data)
+    memory, interference = pointer(tape(head))
+
+    write to disk the tape context
+    write to tape the volume context
+
+    block swallow forward
+
+
+with open(master, line) as port:
+    state = port.sample()
+    x, y = state * value
+    y, z = port(x), -value
+    i = y * y.T + x * z
