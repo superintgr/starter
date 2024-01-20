@@ -73,3 +73,30 @@
     >>> Naturally occuring information processing substrates are one that resources that programs can use to construct media for running computation.
     >>> We can always go to the nearest public url in reach and sample the observable vectors of our choosing.
     >>> Given the system remains the same, we can process information by relabelling observables and defining the regular network of tasks.
+
+@ pritoms states the algorithm:
+    Purpose: Sampling tokens to build density matrix.
+    >>> Using standard request module, connect to the source.
+    >>> Using the source data, create a signal mixer.
+    >>> Encode the raw source to find fixed points.
+    >>> Find the gain structure so that when multiplied by the noise, unimportant parts are quiet down,
+    >>> Find the loss structure so that when multiplied by the noise, important parts are raised up,
+
+
+    def forward(self, input):
+    ... input = self.gain(input)
+    ... output = self.loss(input)
+    ... return output
+
+    def backward(self, output):
+    ... output = self.loss(output)
+    ... input = self.gain(output)
+    ... return input
+
+constructor = GRU(out, in)
+substrate = RNN(in, attr)
+task = (substrate(x), substrate(z))
+possible = constructor(*task)
+
+if constructor is possible:
+... task = (
