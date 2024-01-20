@@ -33,3 +33,40 @@ with open(master, line) as port:
     x, y = state * value
     y, z = port(x), -value
     i = y * y.T + x * z
+
+
+
+
+functions = [mu-law encoding/decoding, source text sampler, waveform parser]
+
+- go to any wikipedia page
+- sample finite number of bytes
+- quantize bytes to tokens
+- transform tokens to waveform
+- process waveform as noise
+- parametrize the amplitude
+
+@ pritoms writing normal:
+. when there is a drum track and bassline mixed in a stereo channel, the others can follow the patterns,
+. if all tracks are connected to a master with right proportions, a lead channel can be matched to route onto the master as well,
+. the function of amplitude then will be the function of the model that master is tracking,
+. the function of the output of the master then is the input to all the functions that produce subsequent outputs,
+.. information mixed with right proportions to some 2D master array will provide all the necessary inputs to the generating function of the lead track,
+.. lead tracker will listen to the master for some pattern, and produce the next output of the master where it is also mixed in,
+... memory is of two kinds (.) where they are created or loaded into registers, (..) where they live for long term support,
+... the evolution of a program has a memory portion which gradually steps away from the direct line of sight -> peripheral -> construction knowledge -> local truth -> redshift towards gated dumps -> hard drives.
+
+let d be the depth of a network,
+the network has 2d - 1 tracks and their side channelsc
+let k be the maximum local horizon length,
+any exposed part of the network is subjected to the local laws,
+let N be the maximum global horizon length.
+
+Memory: <label> <type> <displacement> <mass> <trajectory> <updated>
+- named function of node,
+- type defined by maximum reference distance from any medium variable,
+- displacement is the distance from the computation variable,
+- mass denotes the number of possible constructors,
+- trajectory is a vector of azimuth angle,
+- update reflects the datetime of last azimuth calculation.
+
