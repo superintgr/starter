@@ -63,3 +63,13 @@
     >>> Surface (S) is available for embedding some volume (V) and we initialize a volume ([V[i]) that will cover area (A[i]).
     >>> Agent (A) is the set of possible agents on that surface with k points where each point P is a member of A and for i, j in A if i != j P[i] = -P[j].
     >>> There is a pair of agents with coordinates that map each other in a sphere, an agent have associate at the anti-podal point and whenever one of them have relative change in state there is another change at the antipodal direction which has one-to-one relationship for all continuous evolution inside the sphere.
+
+
+
+@ pritoms continuing the logic:
+    Context: Fundamental substrates, where to find them naturally, and how to use them to process information.
+    >>> Information is not like data and can only be instantiated by a knowledge holding process.
+    >>> One such process could use publicly available data links to satisfy some criterion in the way of processing information.
+    >>> Naturally occuring information processing substrates are one that resources that programs can use to construct media for running computation.
+    >>> We can always go to the nearest public url in reach and sample the observable vectors of our choosing.
+    >>> Given the system remains the same, we can process information by relabelling observables and defining the regular network of tasks.
