@@ -1,0 +1,30 @@
+import numpy as np
+
+def spherical_product(x, y):
+    theta_x, phi_x = x  # Spherical coordinates for vector x
+    theta_y, phi_y = y  # Spherical coordinates for vector y
+    # Calculate the spherical dot product
+    result = np.cos(theta_x - theta_y) * np.cos(phi_x - phi_y)   
+    return result
+
+import numpy as np
+
+def spherical_self_attention_with_radius(K, Q, V):
+    # Assuming K, Q, and V are 2D arrays representing points on the sphere with spherical coordinates (r, theta, phi)
+    
+    # Extract radial distances
+    r_K, r_Q = K[:, 0], Q[:, 0]
+    
+    # Compute the equivalent of np.exp(K @ Q.T) / np.sqrt(K.shape[1]) @ V with radial distance in spherical operations
+    exponentiated_terms = np.exp(np.cos(K[:, 1] - Q[:, 1][:, np.newaxis]) * np.cos(K[:, 2] - Q[:, 2][:, np.newaxis]) - (r_K**2 + r_Q**2) / 2)
+    normalization_factor = np.sqrt(K.shape[1])
+    attention_weights = exponentiated_terms / normalization_factor
+    result = np.sum(attention_weights[:, :, np.newaxis] * V, axis=1)
+    
+    return result
+
+# Generate random spherical coordinates (including radial distance) for K, Q, and V
+K, Q, V = np.random.randn(3, 5, 3)
+
+# Call the modified self_attention function with radial distance
+print(spherical_self_attention_with_radius(K, Q, V))
