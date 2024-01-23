@@ -1,0 +1,20 @@
+[T] humans : not key in [piano]
+[T] humans : not image in [landscape]
+[F] humans : not shaper in [*image, **[landscape]]
+
+
+(+1) shape optimization over memory blocks:
+  -1: assign block with ranges of sub blocks within same substrate
+  -0: start a thread of type primary with secondary thread as tuple of sub blocks
+  +0: statt a thread of type secondary with primary thread as tuple of at least one unique block
+  +1: create a process of type main with maximum recursion depth and conditional switching statement
+    -1: create a process of type main with maximum recursive depth and conditional switching statement
+    +1: start a subprocess of type (1) with minimum recursive depth or maximum switch statements
+  -1: start a subprocess of type (0) with minimum recursion depth or maximum switch statements
+(-1) start a subprocess of type main with i recursive depth and j consecutive span of block code where switch is not True
+
+
+
+tune the neighbors from a immutable 1 parameter family
+    where parameter family codes the envelope in parallel
+squeeze all mutable permutatables until unity.
