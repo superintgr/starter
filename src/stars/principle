@@ -13,3 +13,4 @@
 - before releasing, the dictionary is transferred onto the memorty addresses
 - before halting, the local heaps are all cleared.
 
+[see medium @ medium.py]
