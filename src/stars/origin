@@ -1,0 +1,17 @@
+sys report and record creation : current device
+os report and record update : current clock
+
+unit : unitary motion of objects
+object : contained inside system -> behavior from addressing
+behavior : from static definitions, with changes proportional to clock -> system @ view <- static object not changing
+unchanging : from inverted image from program, the system sees changes per unit time in program positions ~ changes being effective based on unchanging memory
+
+
+
+last state, expectation value = get unitary operator for system that is current at (t)
+
+new state, reference = send signal sampled from analog substrate with reference to the memory blocks
+
+measurement, preparation = computing the labeled index of evolution for memory elements, and new memory elements for next batch
+
+[see program @ runtime.py]
