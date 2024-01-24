@@ -1,0 +1,13 @@
+call interferror and anti interferror {
+  metronome pairs of same type : two instances
+  set their states randomly
+    prepare a plane for ground
+    place the pair on level set
+    if modulus: break backward
+    else: call interferrer
+    }
+  call measurer
+set interferrer and set balance.
+
+
+    [platform : ground : surface : plane : level]
