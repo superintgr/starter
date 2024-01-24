@@ -1,0 +1,15 @@
+- start with a state pair (logical, mechanical)
+- logical state encodes the current path of the cpu processor
+- mechanical state encodes the current path of the dac processor
+- set a runtime period in clock cycles and assign execution calls to intervals
+- define the arm configuration with interval maps and store the callbacks
+- start the main block with callback and memory addresses
+- when main is executed, the block will call the callable with local clock time and return addresses
+- return addresses are dictionary keys that is locally managed
+- when the callback is processed, it returns the pid for a seperate process
+- pid will be observed for status periodically or waited in sleep cycles until the maximal duration is reached
+- pid sends all samples to the dictionary maps as values
+- when finished the pid will have to be released by the main thread
+- before releasing, the dictionary is transferred onto the memorty addresses
+- before halting, the local heaps are all cleared.
+
