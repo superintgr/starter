@@ -14,4 +14,29 @@ block = {
     "+1" : "-1"
 }
 
-[see static @ static.py]
+>>> step = next(sequencer)
+... [+1]
+    [+0]
+    [-0]
+    [-1]
+
+>>> step = next(sequencer)
+... [+1]
+    [+0]
+    [-1]
+    [-0]
+
+>>> step = next(sequencer)
+... [+1]
+    [-1]
+    [+0]
+    [-0]
+
+>>> step = next(sequencer)
+... [-1]
+    [+1]
+    [+0]
+    [-0]
+
+
+[see dynamic object @ dynamic.py]
