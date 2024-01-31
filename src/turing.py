@@ -26,5 +26,17 @@ class Native:
 
   [spherical] : <side|mid|side>
   Within spherical coordinate space, the three dimensional vector space have components (rho, phi, theta) which maps (midpoint, psi) to (mid + sides, mid - sides).
+  
+  Universal properties:
+  - native * native ~ super(native); which is an union of two instances with same constructive/destructive properties.
+  
   """
   def __init__(self):
+    self.left =  [[1, 1, 1],
+                  [1, 1, 0],
+                  [1, 0, 0]]
+    self.right = [[0, 0, 1],
+                  [0, 1, 1],
+                  [1, 1, 1]]
+    self.mid =   [[0, 1/2], [-1/2, -1]]
+    self.sides = [[0, -1/2], [1/2, 0]]
