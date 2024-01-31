@@ -56,3 +56,6 @@ class AudioSampler:
     def reciprocity(source_audio, receiving_audio):
         result = np.dot(source_audio.T, receiving_audio)
         return result
+
+
+[see static object @ static.py]
