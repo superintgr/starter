@@ -29,6 +29,9 @@ class Native:
   
   Universal properties:
   - native * native ~ super(native); which is an union of two instances with same constructive/destructive properties.
+
+  Beats instead of clocks:
+  Two instaces having different substrate properties will cause their mixture to produce beat waves, before synchronizing to their medium variables.
   
   """
   def __init__(self):
@@ -40,3 +43,6 @@ class Native:
                   [1, 1, 1]]
     self.mid =   [[0, 1/2], [-1/2, -1]]
     self.sides = [[0, -1/2], [1/2, 0]]
+
+  def __add__(self, other):
+    
