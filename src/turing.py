@@ -45,4 +45,11 @@ class Native:
     self.sides = [[0, -1/2], [1/2, 0]]
 
   def __add__(self, other):
-    
+    pass
+
+[@ group theory: noether's theorem]
+[-1] conservation law
+[-0] preserved symmetry
+[+0] conserved quantity
+[+1] differentiable action
+
