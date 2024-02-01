@@ -62,3 +62,11 @@ class Native:
 [0+] using triangle inequality, many components of the geometric configurations could let us solve for any missing variable 
 [1+] for example, if a source can detect a star using (x, y, z) positional vector as target point from some source vector, as long as both source and target object remain in existance, given the constraint on the dynamical parameters such as step sizes, gravity, conservation of physical quantities, grid/graph networks etc., the o
 corresponding solution set is constructable.
+
+
+
+[@ pritoms: new workspace]
+[-1] i have found the graphing and diagramming tool {?} very useful
+[-0] even through it is a huge cartesian plane, it has many points to expand deep
+[+0] i can draw my entire workplan in that environment, so what is left after the drawing must be done else where
+[+1] perhaps I can turn the drawings into graphs and networks, then implement straight-up network graphs as programs
