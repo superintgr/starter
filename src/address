@@ -1,0 +1,5 @@
+[address: architecture for locally accessible variables]
+[-1] gcloud bucket configuration and preconfigured terminal
+[-0] construct query vector with parameters <code, data, heap, stack, context>
+[+0] construct key vector with parameters <program, module, stage, run, address>
+[+1] construct value vector with parameters <instruction, actor, wave, critic, constructor>
