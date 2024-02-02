@@ -1,0 +1,35 @@
+operators : (physical, image, logical, actor
+functions : (abstract, memory, binary, actor
+
+physical operator provides data points
+data points are prepared for logical operator
+
+abstract method captures frames from data points
+frames encode current snapshot and inverse maps
+
+logical operator provides mapped addresses
+addresses have map whose two end points complete an image
+
+binary functions encode images into addressable maps
+maps have logical operators sitting between natural reflections
+
+actors are assigned for each linear maps through logical gates
+a gate operator buffers actor: action -> response and actor: response -> action
+
+
+##
+samples = physical state @ hidden moment
+memory = abstract state @ snapshot interval
+action = actor state @ buffered space
+
+~ HERE THE SAMPLED DATA POINTS HAVE BEEN PROCESSED INTO CORRECT DATA FORMAT
+THEN THE FORMATTED VALUES ARE STORED AT DESIGNATED ADDRESS SPACE WITH ONE IMAGE SENT AND ONE IMAGE KEPT
+FINALLY ANOTHER INDEPENDENT PROCESS WILL REACH INTO THE BUFFERED SPACE AND CLEAR OUT THE CELLS
+
+image = action @ time +1
+
+##
+head = state @ time -1
+buffer = logical state @ head
+state = binary state @ image
+action = actor state @ 
