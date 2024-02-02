@@ -1,0 +1,54 @@
+[explanatory universality: information/knowledge]
+[-1] explanatory refers to some property of the information that is different than non-explanatory ones
+[-0] initialize a model inside a homogeneous space
+[+0] as the homogeneous coordinates change, the model will have to adjust to their coordinations
+[+1] why use an optimizer at all? let the model adapt by whatever means necessary.
+
+w = u + v
+
+given an output and state that represents it:
+- what caused the state to change
+- what was present in the configuration space
+- what prompted the state computation
+- what was the input to which the state currently holds output of
+- who produced to the input
+- what caused the generator to exist
+- what reaches for input as function of output generator
+
+
+tasks = []
+
+def add_task(input, output, is_possible=True):
+    construction = {(input, is_possible) : (is_possible, output)}
+    tasks.append(construction)
+
+def parallel_transform(tasks):
+    for task in tasks:
+        input, output = task
+        add_task(input[0], output[1], True)
+        add_task(input, True, True)
+        add_task(input[1], output[0], True)
+        add_task(output, True, True)
+        add_task(task, task, True)
+
+def serial_composition(tasks):
+    for task in tasks:
+        input, output = task
+        add_task(input, output, False)
+        add_task(output, input, True)
+        add_task(input, task, True)
+
+
+
+
+statements = {}
+
+def add_statement(label, claim, description):
+    state = {label: (description, claim), (claim is True, description is True), (claim is False, description is True), (description is False, claim is False), (description, claim is True or claim is False)}
+    statements[state] = label
+    statements[label] = state
+
+label = "straight transform from binary"
+claim = "{label} is possible"
+description = "{claim} because any transformation requires {claim} to be possible"
+
