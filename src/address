@@ -3,3 +3,10 @@
 [-0] construct query vector with parameters <code, data, heap, stack, context>
 [+0] construct key vector with parameters <program, module, stage, run, address>
 [+1] construct value vector with parameters <instruction, actor, wave, critic, constructor>
+
+
+[storage classes: program, coefficient, data]
+[-1] programs are models with base structure initialized
+[-0] coefficients are parameter dictionaries attachable to model instances
+[+0] data constitute the collection of state dictionaries for specific checkpoints
+[+1] storage classes are simultaneously used at every step computations
