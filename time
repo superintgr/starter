@@ -14,3 +14,15 @@
 [0-] the unitary moments between multiple ground states that are mixed in complex matter would violate scaling laws and the differentiated scales produce a unitary vector
 [0+] the quickest form of processing is the straight pass through of the input through parametric surface where it instantiated
 [1+] a straight through projection on the surface which contains the right information variables would yield the exact proportion to the unit step interval effective across the scaler factor
+
+[schedule: field variable]
+[-1] identity, *identity, group, action are all field variables
+[-0] identity : input/output, group/action -> group/output, input/action
+[+0] action : output/group, action/input -> input/group, action/input
+[+1] group : identity/output, input/identity -> action/identity, identity/action
+
+[code: sampler function]
+[-1] restore hidden state and compute new field
+[-0] measure field variable and sample state vector
+[+0] prepare visible state and store old field
+[+1] construct group variable and transform state vector
