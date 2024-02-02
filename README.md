@@ -1,3 +1,47 @@
+# Abstract
+> package number: 1
+
+Gradient in 3D space will be computed as follows:
+- for a given input, the function produces an output
+- for any input/output to be processed, the function must have some identity
+- for identity to be used to identify the function, there must be some representational coordinate
+- a positional coordinate by which representation may occur will have a scalar field associated
+- for scalar field to be placed, the scaling must induce distinguishable changes to the field
+- for any change to be differentiated from any other change, there must be a vector whose defining characteristics must also be distinct
+- for a vector to distinctly point towards some direction, the field must have a vector field
+- for vectors to be directed with some identifiable origin at its base, its tip must follow a unique direction for scaling in that effect
+- for direction to be specified, the field must have another associated vector whose relative differences in angle defines the two field variables
+- for a field to have a unique and distinct unique variable property, there must be an associated identity whose links connect all the changes and nodes define relative changes
+- for relative changes to occur without changing the identity, the relative identity vector must have inverse whose sum reduces to trivial quantities
+- for a non trivial quantity to cause trivial attributes in another non trivial substrate, there must be non trivial attributes whose association could yield another non trivial attribute
+- for two non trivial attributes to be supported by a common substrate, there must be non trivial resources whose use could yield construction on another non trivial resources
+- for such circular non trivial graphs to exist, something must support its instantiation trivially
+
+**those constructors whose product yields non trivial objects from trivial resources are provided by the laws of physics**
+
+> for any positional vector, there is an associated field whose set of possible attributes contain another set of possible positional vectors.
+
+> a transform of the field attributes from a state, the vector resulting from the event will encode all the information about the system (provided the origin remain constant!)
+
+> for two different positional coordinates, the angle that the head makes from the normal vector to the planar field, encodes the directional vector effected by that angle whose greatest and quickest increase yields the maximum level of elevation
+
+> from the maximumally elevated level, the point that marks the interface between the substrate's inner and outer parameters, projection of that information onto the horizontal plane encodes the gradient information
+
+> from the point on the horizontal plane where star lands, the distance from origin to that point along planar direction encodes the relative distance between to two scalar transforms
+
+> for a delta step in the direction away from that maximum scaled norm will minimize the norm of the identity by scaling inversely towards to origin from the farthest point in the horizon
+
+> for finding the optimal trajectory in NOT planar path graphs but in the transforms that effect the whole state whose parameters may only take scalar targets
+
+> for an optimal tracing of the stars while minimizing other reducible paths, the quickest way to converge onto the state where the stars are the linear target point where the density of the space is such that provides sharpest view of the gradient variables
+
+**instead of encoding x: input, y: prediction, z: loss, we should encode the data such that a regular cycle with set of points taking on z values encodes phase shifts, and during the cycle for every z variable, the set of (x, y) values + prompt value -> completion value and z + 1**
+
+if we minimize the whole (x, y, z) for i at t, the (X, Y, Z, T) + (PROMPT, COMPLETION, PRODUCT, INTERVAL) ~ (I * U) + (U * T)
+
+
+
+
 # Logic
 > package number: 6
 
