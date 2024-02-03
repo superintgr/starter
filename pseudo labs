@@ -1,0 +1,50 @@
+
+def get_pseudo_labels(dataset, model, threshold=0.7):
+    ...
+    samples = []
+    pseudolabels= []
+    for batch in dataloader: # the labelled portion 
+        img, _ = batch.      # Size [128(batch size), 3, 128, 128] 
+        with torch.no_grad():
+            logits = model(img.to(device))
+        probs = softmax(logits)          # Size [128, 11]
+        (max_probs, max_indices) = torch.max(probs, dim = 1)     
+        for i, (max_prob, max_idx) in enumerate(zip(max_probs, max_indices)): 
+            if max_prob > threshold: 
+              samples.append(img[i].cpu())      # img[i] tensor of size (3, 128, 128)
+              pseudolabels.append(max_idx.cpu())   # 1 of the 11 classes  # img[i] tensor of size (1)
+              #  have check the two lists' lengths, they are the same
+
+    if len(samples) > 1:        
+      dataset = MyDataset(samples, pseudolabels)  # pseudo set
+    else:
+      dataset = None
+
+from torch.utils.data import Dataset
+class MyDataset(Dataset):
+    def __init__(self, X, y=None):
+        # Stacking tensors into one tensor
+        self.data = torch.stack(X)  # size: torch.Size([98, 3, 128, 128]). # 3, 128, 128 is one img size 
+        self.label = torch.stack(y)  # size: torch.Size([98]) # the 98 is an arbitrary number of the data with prob > 0.7
+    def __getitem__(self, idx):
+        return self.data[idx], self.label[idx]
+    def __len__(self):
+        return len(self.data)
+
+for epoch in range(n_epochs):
+
+    if do_semi:   # if do semi-supervised labelling, i.e. feed the pseudo labels back to training set 
+        pseudo_set = get_pseudo_labels(unlabeled_set, model)
+        if pseudo_set != None:
+          concat_dataset = ConcatDataset([train_set, pseudo_set]) 
+          train_loader = DataLoader(concat_dataset, batch_size=batch_size, shuffle= True , num_workers=2, pin_memory=True)
+        else:
+          train_loader = DataLoader(train_set, batch_size=batch_size, shuffle= True , num_workers=2, pin_memory=True)
+    # ---------- Training ----------
+    model.train()
+    # Iterate the training set by batches.
+    for idx, batch in enumerate(train_loader):
+         imgs, labels = batch   
+         # if the batch has no problem, it yields:  
+         # imgs shape: torch.Size([128, 3, 128, 128]) <class 'torch.Tensor'>
+         # labels shape: torch.Size([128]) <class 'torch.Tensor'>
