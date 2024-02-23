@@ -107,6 +107,12 @@ while True:
     - node identity
     - antinode identity
 
-[0, 1]
-[0, 1]
-[1, 0]
+
+**Problem** : I am trying to construct a programmable computer on the fly from the behringer.
+[0, 1] [0, -0]
+[0, 1] [0, -1]
+[1, 0] [1, +0]
+[1, 0] [1, +1]
+
+For each (2 x 2) block from the samples, we can compute the transformation of another (2 x 2) not in sample.
+
