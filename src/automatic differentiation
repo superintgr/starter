@@ -1,26 +1,112 @@
-computation = [nodes, edges]
-measurement = [edges, antinodes]
-
-**Hetetodyne Mixer**
+**Heterodyne Mixer**
 
 Input Node - > Mixer Function -> Output Node
                      ^
                      |
                Local Function
 
-**gradient accumulator**
+class Graph:
+    def __init__(self):
+    # Dictionary to store adjacent lists
+    self.graph = {}
 
-number_attributes = 4
-epsilon = 1e6
-input_state = [-1, -0, +0, +1]
-output_state = [+1, +0, -0, -1]
-gradient = [0, 0, 0, 0]
-function = lambda state: -state
+    def add_vertex(self, label):
+        if label not in self.graph:
+            self.graph[label] = []
 
-for i range(num_attributes):
-    input_state[i] += epsilon
-    output_state = function(input_state)
-    input_state[i] -= 2 * epsilon
-    output_state_ = function(input_state)
-    gradient[i] = (output_state - output_state_) / (2 * epsilon)
-    input_state[i] += epsilon
+    def add_edge(self, source, sink):
+        self.graph[source].append(sink)
+        self.graph[sink].append(source)
+
+    def __call__(self, input, function):
+        output = function(self.graph[input])
+        return output
+
+task = {input : output}
+function = lambda query: task[query]
+
+**Hemisphere**
+message = {sender: x, receiver: y, register: z, location: theta, direction: phi, indentation: r}
+
+
+from checkpoint import load_causal_model, load_tokenizer
+
+agent = {
+    model: load_causal_model("gpt2"),
+    tokenizer: load_tokenizer("gpt2")
+}
+
+system = {
+    model: load_causal_model("gpt2"),
+    tokenizer: load_tokenizer("gpt2")
+}
+
+class Track:
+    def __init__(self, function):
+        self.function = function
+        self.memory = []
+        self.runtime = 0
+        self.clips = {}
+
+    def start_marker(self, string):
+        ..
+
+    def stop_marker(self, string):
+        ..
+
+    def clip(self, marker):
+        ..
+
+    def step(self, count):
+        self.runtime += count
+
+    def record(self):
+        ..
+
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
+import torch
+
+class Agent(torch.nn.Module):
+    def __init__(self, maximun_length, model_name):
+        super(Agent, self).__init__()
+        self.maximum_length = maximum_length
+        self.tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+        self.model = GPT2LMHeadModel.from_pretrained(model_name)
+
+
+Write the code for the class so that the following works:
+
+alice = Agent(512, "gpt2")
+bob = Agent(512, "gpt2")
+
+recent_memory = [..]
+
+while True:
+    recent_memory.append(alice.get_prediction(recent_memory))
+    recent_memory.append(bob.get_prediction(recent_memory))
+
+
+**Task**
+[-1] linear observable states
+[-0]
+
+
+**Problem**
+1. As I interact with any system where part of the system dynamics is not known
+2. How do I control the transitions between one state to another while making sure the boundary
+
+
+**Problem Description**
+**Physical Mapping**
+**Circuit Mapping**
+**Program Mapping**
+
+
+[physical address]
+    - program state
+    - node identity
+    - antinode identity
+
+[0, 1]
+[0, 1]
+[1, 0]
