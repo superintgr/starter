@@ -1,0 +1,18 @@
+computation = [nodes, edges]
+measurement = [nodes, antinodes]
+
+
+def forward(function, node):
+    edge = function(node)
+    return edge
+
+def backward(function, antinode):
+    edge = function(antinode)
+    return edge
+
+*+Hetetodyne Mixers+*
+
+Input Node - > Mixer Function -> Output Node
+                     ^
+                     |
+               Local Function
