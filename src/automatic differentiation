@@ -1,18 +1,26 @@
 computation = [nodes, edges]
-measurement = [nodes, antinodes]
+measurement = [edges, antinodes]
 
-
-def forward(function, node):
-    edge = function(node)
-    return edge
-
-def backward(function, antinode):
-    edge = function(antinode)
-    return edge
-
-*+Hetetodyne Mixers+*
+**Hetetodyne Mixer**
 
 Input Node - > Mixer Function -> Output Node
                      ^
                      |
                Local Function
+
+**gradient accumulator**
+
+number_attributes = 4
+epsilon = 1e6
+input_state = [-1, -0, +0, +1]
+output_state = [+1, +0, -0, -1]
+gradient = [0, 0, 0, 0]
+function = lambda state: -state
+
+for i range(num_attributes):
+    input_state[i] += epsilon
+    output_state = function(input_state)
+    input_state[i] -= 2 * epsilon
+    output_state_ = function(input_state)
+    gradient[i] = (output_state - output_state_) / (2 * epsilon)
+    input_state[i] += epsilon
