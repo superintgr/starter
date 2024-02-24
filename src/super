@@ -6,3 +6,16 @@ however we can search for equivalent personalities from existing nodes or create
 the equivalent personality graphs will construct ultimately the other part of the file content.
 finally, all of the nodes that will represent discrete portions of the information substrate, are tagged along in the reconstruction of the file object.
 
+[node][system]
+.. it has an address and a location
+.. the location represents substrate local at that address
+.. there is a generic constructor whose purpose is to make the address rechable.
+
+[subsystem][model]
+.. subsystem will power the accessible other nodes from the base path
+.. one such subsystem will handle language communication
+
+
+[language][model]
+.. use a pretrained embedding model
+.. 
