@@ -1,3 +1,10 @@
 [computational gate]
 .. a system that is described an algorithm which performs a fixed set of operations in fixed duration of time
 .. also called logic gate
+
+[quantum gate]
+.. is a physical process
+.. whose laws of motion implements a rule
+.. that defines each output qubit
+.. in terms of the input qubits.
+
