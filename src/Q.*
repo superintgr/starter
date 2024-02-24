@@ -26,3 +26,11 @@
   .. a process is [coherent] if observables at the end of the process are functions only of the observables of the same system at the beginning
   .. inteference phenomena and all quantum computation occur only at in [coherent] systems.
 
+[background]
+.. here we setup and configure the first parallel subsystem
+.. the subsystem will run in a dedicated server and would be accessible at specific addresses
+.. there will be pipeline(s) which the thread will continue indefinitely
+.. [pipeline]
+  .. stay available for discovery and listen to any changes
+  .. [sampler], [buffer], [distribution], [
+  .. carry out requested job, stage the recurrent proxesses into active buffer, respond to buffer lookups
