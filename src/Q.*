@@ -100,3 +100,49 @@ import os
 .. with all of the physical parameters and associated operators in participation, the general motion of logical parameters with associated variables must not superceade the physical observable criterion
 .. if stuck at some local minima/maxima where regular networks of constructors are not being made possible over last consequetive span of times, it may still be possible that a new observer and/or substrate (joint) become eligible for attachment
 .. when sufficient basis is possible to compose via additional set of transformations, any locally impossible statement may become jointly possible via connecting each isolated localities through common base parameters
+
+
+
+
+[gemini]
+.. api and authentication
+.. cost and administration
+.. generators, processors, loader, displayer
+
+
+
+[callback]
+.. at each change in the device state
+.. a callback can be assigned to the processing function
+.. callback is responsible for handling the observable parameters of the target system
+.. for any decoherence caused in the observer system would reflect simultaneously across the energy eigen elements
+
+
+[schrodingers picture]
+.. (-unitary)[t] * (density) * [t](unitary).T
+.. produces density[t]
+.. change happens in the density structure with respect to time parameters
+  .. -i[commutation[t], density[t]]
+
+[eigenvectors for density]
+.. ket is a column vector
+.. denotes vector information
+.. n'th eigenvector of the density matrix at time t
+.. |n; t> labeled by n amd t
+
+.. row vector ket(alpha)
+.. <alpha| is the hermitian.T vector
+.. dual vector of the ket alpha
+
+
+[scalar product]
+.. <beta|alpha>
+
+[squared norm]
+.. squared norm of |alpha>
+.. <alpha|alpha>
+
+[hilbert space]
+.. scalar norm of kets
+.. hilbert space
+.. vector space with norm
