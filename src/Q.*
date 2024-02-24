@@ -36,3 +36,35 @@
   .. carry out requested job, stage the recurrent proxesses into active buffer, respond to buffer lookups
 
 
+
+
+
+[sounddevice]
+import sounddevice as sd
+import numpy as np
+import os
+
+.. sound device has two types of operations
+.. .. (1) collecting input stream from the source channels of the device
+.. .. (2) playing output stream from the source arrays of the memory
+
+.. we have to select the device and configure the following/
+.. .. (input, output) channels
+.. .. (sample rate)
+.. .. (datatype)
+
+[cli]
+.. there are preset programs for io tasks available
+.. we can call the script with relevant arguments to execute the functionalities
+.. for recording we can specify the output path and memory map the file to the processing node
+
+
+
+[continuity]
+.. any set of informal statements that could not be computed by my particular system
+.. either there are definite network architectures that contains all possible elements
+.. or the partial encoding of possible variables that could have one of the other variables
+.. any realization that leads to an isolated system is decoherent or rationally coherent.
+
+
+[
