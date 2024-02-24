@@ -13,3 +13,16 @@
 .. transport electrons through field operators
 .. number of winding determines the transport ratio
 .. balancing, impedence matching, screening ground loops etc. among the utilities
+
+[circuit]
+.. define algorithm in terms of qubits, channels, runtime, sequencers, gates, states etc.
+.. for each node in the sequences, define compute, measure
+.. for each antinode in the bars, define preperation, construction (other)
+
+[coherent]
+.. observables at one time is observables for that system at other times
+.. time dependent hamiltonian
+.. [coherence]
+  .. a process is [coherent] if observables at the end of the process are functions only of the observables of the same system at the beginning
+  .. inteference phenomena and all quantum computation occur only at in [coherent] systems.
+
