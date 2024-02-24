@@ -8,3 +8,8 @@
 .. that defines each output qubit
 .. in terms of the input qubits.
 
+[transformer]
+.. coils, windings, sides
+.. transport electrons through field operators
+.. number of winding determines the transport ratio
+.. balancing, impedence matching, screening ground loops etc. among the utilities
