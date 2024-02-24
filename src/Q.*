@@ -67,4 +67,18 @@ import os
 .. any realization that leads to an isolated system is decoherent or rationally coherent.
 
 
-[
+[streaming from url]
+.. sounddevice will stream audio in real time from an url
+.. it gathers the stream information from the url
+.. it checks that only one stream is available of type audio
+.. the gathered information contain channel counts, sampling rate etc.
+.. sounddevice opens the output of the stream through ffmpeg and instantiates a raw output stream object (RawOutputStream)
+.. before starting playback, it collects a certain number of frames as queued items
+.. the offset stored in the buffer eliminates race conditions
+.. sounddevice employs the callback function which receives each discarded items from the queue and puts it into the playback queue
+.. stream from queue continuously runs in the background for collecting new observables and pushes them into the queue
+.. a continously running loop breaks whenever there is a forced termination
+
+[local streamable url]
+.. select a directory for publishing playlist
+.. 
