@@ -175,3 +175,19 @@ import os
 
 .. when we define the permutation operator, it must be linear
 .. if it must be linear then any element that it could act on follows the pattern where the action is described by what could have been if action was applied to one of the other observables from that state.
+
+
+
+
+
+
+[callback]
+.. {In/Out} state at time t
+.. what is that state describing at time t?
+.. {Out/In} state at time t + 1
+.. what is that inverse describing at the next time step?
+
+.. suppose at time 't' there have been an effective {Out/In} for which {Out/In} is caused from t - 1
+
+[superposition]
+.. 
