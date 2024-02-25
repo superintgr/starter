@@ -6,3 +6,16 @@ import ket, bra, tensor_product
 
 # Pure state
 rho-hat(t) = ket(psi(t)), bra(psi(t)) / bra(psi(t)), ket(psi(t))
+
+class Heisenberg(Picture):
+    Z(t + 1) = -Z(t)
+    Y(t + 1) = +Y(t)
+    X(t + 1) = -X(t)
+    I(t + 1) = +I(t)
+
+class Hadamard(Image):
+    ket(+1) : (ket(+1) + ket(-1)) / root(2)
+    ket(-1) : (ket(+1) - ket(-1)) / root(2)
+
+class CNOT(Image):
+    ket(x, y) = ket(x * y, y)
