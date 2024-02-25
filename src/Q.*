@@ -146,3 +146,32 @@ import os
 .. scalar norm of kets
 .. hilbert space
 .. vector space with norm
+
+
+
+
+[other construction]
+.. other construction tasks surrounding the information processing
+.. [measurement], [preparation]
+  .. measurement takes a physical system as input
+  .. measurement process yields information about the system
+.. preparation produces the desired description of a system
+.. preparation expects some physical system whose states have implicit criteria for which any possible description would satisfy the required basis.
+
+.. the incoming edge onto the preparation step, implies a new construction formulation where the outlet would conform to the principles asserted.
+.. principles assert the kind of dynamics that passively requires any transformation to obey its own law of motion and whereby it would make the knowledge about the asserted attributes realizable through physical means.
+
+
+[information]
+.. we define any substrate that is capable of varying at least of its state components such that the other possible components would comprise of an equivalent set of states where the inverse process would transform that formulation to all possible charateristic transform criteria
+.. then a substrate maching the permutability criteria would make information processing possible using the states of the substrate
+.. an information processing media is thus an object satisfying the description like such would constitute a basis for formulating the specific type.
+
+.. performing a permutation operation over all of the states of the substrate
+.. would have to satify the following:
+  .. a reversible computation on the set produces a new set
+
+  .. the new set has all the elements of the old set with their polarity reversed with respect to each of the polar angles.
+
+.. when we define the permutation operator, it must be linear
+.. if it must be linear then any element that it could act on follows the pattern where the action is described by what could have been if action was applied to one of the other observables from that state.
