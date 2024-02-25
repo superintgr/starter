@@ -190,4 +190,13 @@ import os
 .. suppose at time 't' there have been an effective {Out/In} for which {Out/In} is caused from t - 1
 
 [superposition]
-.. 
+.. [hilbert curve]
+  .. we can create a hilbert processor with specified bounds on dimensionality and processing degree
+  .. given the hilbert space as configuration space, we can map array of points to points on the curve
+  .. for each points on the curve, the configuration space will encode the data points via the distance relative to the resolution of the grid
+  .. so we can have a function which will encode data points through embedding those onto the curve of specified attributes, which returns a mapping to distances between the data and the curvw
+  .. we can increase the dimension of the embedding space and the existing map will reach the limiting points
+
+.. from a set of embedding vectors, there are functions which projects onto the linear subspace and getting metrics from linear code points
+.. for any other embedding configuration the inverse can also be done i.e. code points to relative data points, then we can calculate if the retrieved keys correspond to existing memory elements
+
